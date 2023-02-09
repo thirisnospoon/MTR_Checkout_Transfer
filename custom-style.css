@@ -1,0 +1,115 @@
+
+
+
+.timer-banner {
+    width: 100%;
+    /* border: 2px solid #969696; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    /* height: 40px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.timer-banner-icon {
+    /* width: 25px; */
+    /* background: rgb(239, 239, 255); */
+    padding: 5px 15px 5px 15px;
+    margin-left:10px;
+}
+
+.timer-banner-text-block {
+    /* background-color: rgb(255, 215, 215); */
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-start;
+}
+
+.price-held-for {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.timer {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+
+.checkout-steps {
+    margin-bottom: 10px !important;
+    border-radius: 10px !important;
+}
+
+.checkout-h1 {
+    font-size: 1.8em;
+}
+
+.checkout-transfer-h2 {
+    font-size: 1.2em;
+}
+
+.checkout-transfer-h4 {
+    margin-top: 15px;
+    font-size: 1em;
+
+}
+
+.checkout-transfers-price {
+    font-size: 1.5em;
+}
+
+.checkout-transfers-title {
+    font-size: 1.2em;
+    font-weight: 400 !important;
+}
+
+.checkout-h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.flight-title {
+    margin-top: 45px;
+    font-size: 1.8em;
+    border-top: 2px #2abaae dashed;
+    padding-top: 45px;
+    }
+
+.checkout-input-label-input {
+    padding: 8px 15px !important;
+}
+
+.checkout-select-wrapper {
+    height: 45px !important;
+}
+
+.checkout-form-label-title {
+    font-size: 14px !important;
+}
+
+.checkout-input-label {
+    margin-bottom: 0 !important;
+}
+
+.checkout-select-wrapper {
+    margin-bottom: 0 !important;
+}
+
+.checkout-step-number {
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #2abaae !important;
+}
+
+.checkout-transfer {
+    border-radius: 10px !important;
+}
+
+#main-footer {
+    display: none;
+}

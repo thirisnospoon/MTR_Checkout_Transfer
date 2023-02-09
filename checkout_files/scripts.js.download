@@ -1,0 +1,37 @@
+function req(data, path = '/wp-admin/admin-ajax.php', showLoader = true, method = 'POST') {
+
+	if (showLoader) {
+
+		jQuery(".overflow-hidden-menu-top").show()
+		jQuery(".loading-page-result").show()
+	}
+	
+	return new Promise((resolve, reject)=>{
+
+		jQuery.ajax({
+			url: path,
+			type: method,
+			data: data,
+			success(result) {
+	
+				jQuery(".overflow-hidden-menu-top").hide()
+				jQuery(".loading-page-result").hide()
+
+				resolve({
+					success: true,
+					data: result,
+				})
+			},
+			error(err) {
+
+				jQuery(".overflow-hidden-menu-top").hide()
+				jQuery(".loading-page-result").hide()
+				
+				resolve({
+					success: false,
+					data: err,
+				})
+			},
+		})
+	})
+}
