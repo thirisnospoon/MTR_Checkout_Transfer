@@ -114,10 +114,7 @@
 }
 
 .flight-title {
-    margin-top: 45px;
     font-size: 1.8em;
-    border-top: 2px #2abaae dashed;
-    padding-top: 45px;
 }
 
 .checkout-input-label-input {
@@ -169,4 +166,31 @@
 
 .checkout-form-datebirth {
     margin-bottom: 45px;
+}
+
+.hidden {
+    display:none;
+}
+
+
+
+.add-flight-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-flight-block {
+    margin-top: 45px;
+    border-top: 2px #2abaae dashed;
+    padding-top: 45px;
+}
+
+.arrow {
+    font-size: 1.3em;
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+    color: #2abaae;
 }
