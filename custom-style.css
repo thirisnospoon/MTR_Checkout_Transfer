@@ -115,6 +115,7 @@
 
 .flight-title {
     font-size: 1.8em;
+    text-decoration: underline 2px #30D5C8;
 }
 
 .checkout-input-label-input {
@@ -168,9 +169,7 @@
     margin-bottom: 45px;
 }
 
-.hidden {
-    display:none;
-}
+
 
 
 
@@ -193,4 +192,10 @@
     position: relative;
     top: 4px;
     color: #2abaae;
+    
+}
+
+
+.hidden {
+    display: none;
 }
